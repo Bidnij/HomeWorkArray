@@ -21,11 +21,10 @@ public class TaskWithTwoArray {
         if (mean > mean2) {
             System.out.println("Больше среднее значение первого масива " + mean);
         }
-        if (mean < mean2) {
+        else if (mean < mean2) {
             System.out.println("Больше среднее значение второго масива " + mean2);
         }
-        if (mean == mean2) {
+        else
             System.out.println("Средние значения равны " + mean);
-        }
     }
 }
