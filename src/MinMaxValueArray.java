@@ -10,7 +10,7 @@ public class MinMaxValueArray {
             if (array[j] > array[j - 1]) {
                 max = array[j];
             }
-            if (array[j] < array[j - 1]) {
+            else if (array[j] < array[j - 1]) {
                 min = array[j];
             }
         }
